@@ -1,0 +1,24 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
+    background-color: #302a2a;
+    color: #ffffff;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+button {
+    margin: 1vmax;
+    margin-bottom:0cqmax;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+a{
+    text-decoration: none;
+}

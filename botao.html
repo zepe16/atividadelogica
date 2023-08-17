@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idade e Média</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Informe as idades</h1>
+        <form id="inputForm">
+            <label for="nome1">Nome da primeira pessoa:</label><br>
+            <input type="text" id="nome1">
+            <label for="idade1">Idade da primeira pessoa:</label>
+            <input type="number" id="idade1">
+           <br><br><label for="nome2">Nome da segunda pessoa:</label><br>
+            <input type="text" id="nome2">
+            <label for="idade2">Idade da segunda pessoa:</label>
+            <input type="number" id="idade2">
+            <br><br><label for="nome3">Nome da terceira pessoa:</label><br>
+            <input type="text" id="nome3">
+            <label for="idade3">Idade da terceira pessoa:</label>
+            <input type="number" id="idade3">
+            <br><br><label for="nome4">Nome da quarta pessoa:</label><br>
+            <input type="text" id="nome4">
+            <label for="idade4">Idade da quarta pessoa:</label>
+            <input type="number" id="idade4">
+            <br><br><label for="nome5">Nome da quinta pessoa:</label><br>
+            <input type="text" id="nome5">
+            <label for="idade5">Idade da quinta pessoa:</label>
+            <input type="number" id="idade5">
+
+            <button type="submit">Calcular</button>
+            <br><br><a href="index.html"><p style="border-radius: 5px; background-color: #007BFF; padding: 10px; width: min-content;  text-align:center; color: white;">Voltar</p></a><br><br>
+        </form>
+        <div id="resultado" class="hidden">
+            <p>A média entre as idades é: <span id="media"></span></p>
+            <p>A idade maior é: <span id="maiorIdade"></span></p>
+            <p>A pessoa com a idade maior é: <span id="nomeMaior"></span></p>
+        </div>
+    </div>
+    <script src="script.js">
+        function Paginicial(){
+            window.location.href="index.html"
+        }
+    </script>
+</body>
+</html>
